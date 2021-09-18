@@ -14,10 +14,10 @@ class CustomTextField extends StatelessWidget {
     return TextField(
       style: const TextStyle(color: Colors.white),
       decoration: InputDecoration(
-        fillColor: Colors.white30,
+        fillColor: Colors.white.withOpacity(0.15),
         filled: true,
         hintText: hintText,
-        hintStyle: const TextStyle(color: Colors.white60),
+        hintStyle: const TextStyle(color: Colors.white70),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(50),
           borderSide: BorderSide.none,

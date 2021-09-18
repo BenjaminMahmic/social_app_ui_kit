@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:social_app_ui_kit/components/custom_button.dart';
 import 'package:social_app_ui_kit/components/text_field.dart';
 import 'package:social_app_ui_kit/constants.dart';
+import 'package:social_app_ui_kit/screens/forgor_password/forgor_password_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -24,7 +26,7 @@ class LoginScreen extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage(
-                'assets/pictures/backgrounds/background2.jpg',
+                'assets/pictures/backgrounds/background3.jpg',
               ),
               fit: BoxFit.cover,
               colorFilter: ColorFilter.srgbToLinearGamma(),
@@ -37,7 +39,6 @@ class LoginScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 40),
                 const Text(
                   'Welcome back',
                   style: TextStyle(
@@ -82,7 +83,17 @@ class LoginScreen extends StatelessWidget {
                         color: Colors.grey,
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        PageTransition(
+                          type: PageTransitionType.fade,
+                          child: const ForgotPasswordScreen(),
+                          duration: const Duration(milliseconds: 300),
+                          ctx: context,
+                        ),
+                      );
+                    },
                   ),
                 ),
               ],
