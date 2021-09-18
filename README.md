@@ -2,8 +2,9 @@ Social App UI Kit
 
 In next period i will work on others screen.
 
-![LogReg](https://user-images.githubusercontent.com/89051381/133894679-03620dc7-3014-458e-a40b-8cea0377a6da.jpg)
-![Login](https://user-images.githubusercontent.com/89051381/133894683-789883fd-ff37-4462-a964-27a50946541a.jpg)
-![Register](https://user-images.githubusercontent.com/89051381/133894688-372a0ca3-a093-4e9b-9c18-af83e7ad83f6.jpg)
-![ForgotPass](https://user-images.githubusercontent.com/89051381/133894694-82276a54-e9ee-4f77-aed8-186690cd2db7.jpg)
+![Screenshot_1](https://user-images.githubusercontent.com/89051381/133909118-67911362-2191-46b7-8b20-c7172eceef24.jpg)
+![Screenshot_2](https://user-images.githubusercontent.com/89051381/133909119-6706ed19-e505-4acd-9975-abf554551a0f.jpg)
+![Screenshot_3](https://user-images.githubusercontent.com/89051381/133909120-f1b83359-db4f-4c51-b200-106006d8400a.jpg)
+![Screenshot_4](https://user-images.githubusercontent.com/89051381/133909122-38177153-e4a7-4a04-8a68-c08cc36b14de.jpg)
+
 
