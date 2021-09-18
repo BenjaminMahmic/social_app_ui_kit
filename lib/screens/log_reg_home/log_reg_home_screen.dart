@@ -5,6 +5,7 @@ import 'package:social_app_ui_kit/components/custom_button.dart';
 import 'package:social_app_ui_kit/constants.dart';
 import 'package:social_app_ui_kit/screens/log_reg_home/components/bottom_oprions.dart';
 import 'package:social_app_ui_kit/screens/login/login_screen.dart';
+import 'package:social_app_ui_kit/screens/register/register_screen.dart';
 
 class LogRegHomeScreen extends StatelessWidget {
   const LogRegHomeScreen({Key? key}) : super(key: key);
@@ -93,7 +94,17 @@ class LogRegHomeScreen extends StatelessWidget {
                     title: 'Sign up',
                     titleColor: Colors.white,
                     doGradient: true,
-                    onPress: () {},
+                    onPress: () {
+                      Navigator.push(
+                        context,
+                        PageTransition(
+                          type: PageTransitionType.fade,
+                          child: const RegisterScreen(),
+                          duration: const Duration(milliseconds: 300),
+                          ctx: context,
+                        ),
+                      );
+                    },
                   ),
                   const SizedBox(height: AppConsts.defPadding * 4),
                   const BottomOptions(),
